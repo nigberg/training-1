@@ -1,1 +1,1 @@
-(https://nigberg.github.io/training-1)[GitHub Pages]
+https://nigberg.github.io/training-1
