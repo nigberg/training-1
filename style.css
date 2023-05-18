@@ -1,0 +1,46 @@
+.carousel{
+    margin: 20px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    background-color: rgb(233, 238, 238);
+    
+}
+.carousel__controls{
+    height: 25px;
+    width: auto;
+    border-radius: 5px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all linear .3s;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.carousel__controls_active{
+    visibility: visible;
+}
+.carousel__controls:hover{
+    background-color: beige;
+    color: blue;
+}
+.carousel__links{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.carousel__link{
+    text-decoration: none;
+    font-weight: 700;
+    color: blueviolet;
+}
+.dashboard__form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
